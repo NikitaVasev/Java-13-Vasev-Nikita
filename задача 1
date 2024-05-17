@@ -1,0 +1,27 @@
+public class CompareNumbers {
+    public static void main(String[] args) {
+        int a = 10;
+        int b = 5;
+
+        // Сравниваем числа
+        if (a > b) {
+            System.out.println("a > b");
+        } else if (a < b) {
+            System.out.println("a < b");
+        } else {
+            System.out.println("a = b");
+        }
+
+        // Выполняем операции сложения, вычитания, деления и умножения
+        System.out.println("Сумма a и b: " + (a + b));
+        System.out.println("Разность a и b: " + (a - b));
+        
+        if (b != 0) {
+            System.out.println("Частное a и b: " + ((double) a / b));
+        } else {
+            System.out.println("На ноль делить нельзя!");
+        }
+        
+        System.out.println("Произведение a и b: " + (a * b));
+    }
+}
