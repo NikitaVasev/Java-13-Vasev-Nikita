@@ -1,0 +1,14 @@
+public class StringComparator {
+    public static void main(String[] args) {
+        // принимаем две строки с помощью аргументов командной строки
+        String a = args[0];
+        String b = args[1];
+        
+        // сравниваем строки
+        if (a.equals(b)) {
+            System.out.println("строки идентичны");
+        } else {
+            System.out.println("строки неидентичны");
+        }
+    }
+}
